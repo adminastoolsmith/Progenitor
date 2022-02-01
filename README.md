@@ -25,7 +25,7 @@ The following Powershell script provides an example thatn shows how Progenitor c
 
 ```Powershell
 <#
-    This script is uses the progenitor module to reverse engineer an existing 
+    This script uses the progenitor module to reverse engineer an existing 
     server configuration and turn it into a set of ANSIBLE Scripts  function
 
     Nigel Thomas
