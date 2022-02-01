@@ -17,7 +17,7 @@ Progenitor uses the following DSC resources to extract the configuration from th
 
 The Get-ANSIBLEPlayBooks.ps1 script in the test folder provides an example that shows how Progenitor can be used to extract the configuration from an existing Windows computer and turn it into ANSIBLE scripts. The following environmental variables must be set before running the script:
 
-1. $env:ServerInstance = This set to eitehr the name or the ip addrees of the Windows computer
+1. $env:ServerInstance = This set to either the name or the ip addrees of the Windows computer
 2. $env:MyUsername = The name of the user
 3. $env:MyPassword = The password for the user
 4. $env:ConvertTo = The type of output to create and this can be set to either 'AnsiblePlayBook' or 'DSC'
