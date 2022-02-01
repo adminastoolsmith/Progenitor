@@ -22,11 +22,12 @@ The Get-ANSIBLEPlayBooks.ps1 script in the test folder provides an example that 
 3. $env:MyPassword = The password for the user
 4. $env:ConvertTo = The type of output to create and this can be set to either 'AnsiblePlayBook' or 'DSC'
 
+The Get-ANSIBLEPlayBooks.ps1 script.
 
 ```Powershell
 <#
     This script uses the progenitor module to reverse engineer an existing 
-    server configuration and turn it into a set of ANSIBLE Scripts  function
+    server configuration and turn it into a set of ANSIBLE Scripts function
 
     Nigel Thomas
 
