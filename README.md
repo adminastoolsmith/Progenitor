@@ -44,14 +44,14 @@ The following Powershell script provides an example thatn shows how Progenitor c
 
 Import-Module C:\Downloads\development\progenitor -Force
 
-# Use environmental variables to configure the session information
+#Use environmental variables to configure the session information
 #$env:ServerInstance = 'The name or ip address of the server'
 #$env:MyUsername = 'The user name'
 #$env:MyPassword = 'The user password'
 #$env:ConvertTo = 'AnsiblePlayBook'
 #$env:ConvertTo = 'DSC'
 
-# Array of DSC Resources that we want to tyurn iinto ANSIBLE Scripts
+#Array of DSC Resources that we want to tyurn iinto ANSIBLE Scripts
 $DSCResourceNames = 'MSFT_xWindowsFeature', 'MSFT_xPackageResource', 'MSFT_xWebAppPool','MSFT_xWebsite','MSFT_xWebApplication', 'MSFT_xWebVirtualDirectory', 'cNtfsPermissionEntry', 'MSFT_xRegistryResource'
 
 $RegistryKeys = 'HKLM:\SOFTWARE\ODBC\ODBC.INI', 'HKLM:\SOFTWARE\WOW6432NODE\ODBC\ODBC.INI'
