@@ -23,7 +23,7 @@ The following Powershell script provides an example thatn shows how Progenitor c
 4.#$env:ConvertTo = The type of output to create and this can be set to either 'AnsiblePlayBook' or 'DSC'
 
 
-
+---
 <#
     This script is uses the progenitor module to reverse engineer an existing 
     server configuration and turn it into a set of ANSIBLE Scripts  function
@@ -153,3 +153,4 @@ if ($s) {
 
 Remove-Module progenitor
 #Remove-Module powershell-yaml
+---
